@@ -1,0 +1,126 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 20%;
+    background-color: #faf3e3;
+}
+
+.backgroundBars {
+    z-index: -1;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    right: 20%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(-75deg, rgba(0, 0, 0, 0) 0%, 25%, #d21e1e 25%, 40%, rgba(0,0,0,0) 40%, 41%, #fa6e1e 41%, 56%,  rgba(0,0,0,0) 56%, 57%, #fab414 57%, 72%, rgba(0,0,0,0) 72%);
+}
+
+h1 {
+    padding-left: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+}
+
+.container {
+    border: 2px solid #322d28;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: white;
+}
+
+.colorContainer,
+.fontContainer,
+.textContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.colorPanel {
+    border-radius: 10px;
+    display: block;
+    width: 32%;
+    text-align: center;
+    margin: 10px 7px;
+    min-height: 100px;
+}
+
+.goldenrod {
+    background-color: #fab414;
+    color: white;
+}
+
+.orange {
+    background-color: #fa6e1e;
+    color: white;
+}
+
+.red {
+    background-color: #d21e1e;
+    color: white;
+}
+
+.beige {
+    flex-grow: 2;
+    background-color: #faf3e3;
+    color: #322d28;
+}
+
+.black {
+    flex-grow: 2;
+    background-color: #322d28;
+    color: white;
+}
+
+.fontPanel {
+    display: block;
+    width: 32%;
+    margin: 10px 7px;
+    line-height: 16px;
+}
+
+.fontLabel {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.raleway{
+    font-family: 'Raleway', sans-serif;
+}
+
+.openSans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.robotoSlab {
+    font-family: 'Roboto Slab', serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.textPanel {
+    display: block;
+    width: 32%;
+    margin: 10px 7px;
+}
