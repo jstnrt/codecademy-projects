@@ -1,0 +1,102 @@
+* {
+    font-family: 'Segoe UI', 'Roboto', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+	padding: 0;
+}
+
+a {
+    cursor: pointer;
+}
+
+.wrap {
+    
+    margin: 0 auto;
+}
+
+header {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.top-nav {
+    padding: 2px 0;
+    float: left;
+    width: 100%;
+}
+
+.top-nav a {
+    font-size: 17px;
+    padding-right: 10px;
+    color: hsl(240, 7%, 40%);
+}
+
+h1 {
+    display: inline;
+    font-size: 18px;
+    padding: 0 20px;
+}
+
+.red-und {
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(200, 0, 0);
+}
+
+.top-nav-search {
+    padding: 18px 0;
+    float: right;
+}
+
+.searchbar {
+    padding: 0 15px;
+    height: 30px;
+    width: 76px;
+    border-radius: 15px;
+    border: 1px solid #afafba;
+}
+
+::placeholder {
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(200, 0, 0); 
+}
+
+.top-nav-search img {
+    height: 18px;
+    position: relative;
+    right: 36px;
+    top: 3px;
+}
+
+.location {
+    font-size: 17px;
+    color: #afafba;
+    background-color: hsl(240, 10%, 98%);
+    border-top: 1px solid #afafba;
+    border-bottom: 1px solid #afafba;
+}
+
+.location a {
+    color: hsl(240, 7%, 40%);
+}
+
+.location-cont {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.breadcrumb li {
+    display: inline;
+}
+
+.breadcrumb li+li::before {
+    content: "/";
+}
+
+table {
+    width: 650px;
+    margin: 0 auto;
+  }

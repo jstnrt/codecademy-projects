@@ -1,0 +1,53 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+.price {
+    font-weight: bold;
+}
+
+body {
+    background-image: url("../images/pattern.webp");
+    background-attachment: fixed;
+}
+
+h1 {
+    position: fixed;
+    font-size: 100px;
+    color: khaki;
+    width: 200px;
+    padding: 10px 20px;
+}
+
+h2 {
+    font-size: 32px;
+    color: white;
+}
+
+h2.brushes {
+    background-color: mediumspringgreen;
+}
+
+h2.frames {
+    background-color: lightcoral;
+}
+
+h2.paint {
+    background-color: skyblue;
+}
+
+div {
+    background-color: beige;
+    width: 50%;
+    float: right;
+    clear: right;
+    padding: 10px 20px;
+}
+
+.price{
+    color: blue;
+}
